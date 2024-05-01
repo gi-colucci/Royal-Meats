@@ -8,35 +8,53 @@ footer {
 }
 
 footer p {
-    margin-top: 7vh;
+    margin-top: 5rem;
+    margin-left: 35vw;
+    width: 23vw;
+    text-align: center;
 }
 
 .redes {
     margin-top: 7vw;
     margin-right: -4vw;
-    padding-right: 1vw;
+    padding-bottom: 5vw;
     display: inline-block;
 }
 
-.infos {
-    height: 3vh;
-    margin-top: 10vw;
-    margin-right: 14vw;
-    margin-bottom: 15vw;
-    display: ruby;
-}
-
-.infos a {
+.redes a {
     text-decoration: none;
     color: #000;
 }
 
-
-.infos a:visited {
-    color: #000;
+.redes h2 {
+    margin-left: -12vw;
+    padding-bottom: 7.5vw;
+    text-align: center;
 }
 
-.infos h2 {
-    margin-left: 15vw;
+.maps {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15.5vw;
+    padding-bottom: 1rem;
+    float: right;
+    border-radius: 2rem;
+}
+
+.maps a {
+    color: #000;
+    text-decoration: none;
+    font-size: 100%;
+    padding-bottom: 1rem;
+    list-style: none;
     text-align: center;
+}
+
+iframe {
+    border: 1;
+    border-color: #000;
+    border-radius: 0.5rem;
+    width: 15rem;
+    height: 10rem;
 }
